@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+li {
+    list-style-type: none;
+}
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    background-color: lightblue;
+}
+
+.mat-card {
+    background-color: #b7b7b7;
+}
+
+.mat-button {
+    background-color: #fa5b3d;
+}
+
+.section-title {
+    padding-left: 40px;
+    font-weight: bolder;
+    color: darkblue;
+}

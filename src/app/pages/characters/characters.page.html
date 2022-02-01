@@ -1,0 +1,10 @@
+<app-creation (ajouterEvent)="ajouterCharacter($event)"></app-creation>
+<app-liste-characters [characters]="characters" [filter]="true" (deleteEvent)="supprimerCharacter($event)" (modifyEvent)="modifierCharacter($event)">
+</app-liste-characters>
+<app-liste-characters [characters]="characters" [filter]="false" (deleteEvent)="supprimerCharacter($event)" (modifyEvent)="modifierCharacter($event)">
+</app-liste-characters>
+
+<!--
+<app-liste-actifs [characters]="characters" (deleteEvent)="supprimerCharacter($event)" (modifyEvent)="modifierCharacter($event)"></app-liste-actifs>
+<app-liste-inactifs [characters]="characters" (deleteEvent)="supprimerCharacter($event)"  (modifyEvent)="modifierCharacter($event)"></app-liste-inactifs>
+-->
