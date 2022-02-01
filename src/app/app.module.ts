@@ -5,8 +5,6 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CharactersPage } from './pages/characters/characters.page';
 import { CreationComponent } from './components/characters/creation/creation.component';
-import { ListeActifsComponent } from './components/characters/liste-actifs/liste-actifs.component';
-import { ListeInactifsComponent } from './components/characters/liste-inactifs/liste-inactifs.component';
 import { CharacterComponent } from './components/characters/character/character.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,8 +18,6 @@ import { ListeCharactersComponent } from './components/characters/liste-characte
   declarations: [
     AppComponent,
     CreationComponent,
-    ListeActifsComponent,
-    ListeInactifsComponent,
     CharactersPage,
     CharacterComponent,
     ListeCharactersComponent

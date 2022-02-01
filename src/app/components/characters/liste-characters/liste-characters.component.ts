@@ -8,6 +8,7 @@ import { Character } from 'src/app/models/Character';
 })
 export class ListeCharactersComponent implements OnInit {
   
+  // Cette variable permet de sélectionner les personnages à afficher suivant s'ils sont actifs ou pas
   @Input() public filter: boolean = true;
   @Input() public characters: Character[] = [];
   @Output() public deleteEvent: EventEmitter<number> = new EventEmitter();

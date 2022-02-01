@@ -260,13 +260,6 @@
       "active": true
     },
     {
-      "title": "the Tidal Trickster",
-      "id": 105,
-      "key": "Fizz",
-      "name": "Fizz",
-      "active": true
-    },
-    {
       "title": "the Void Walker",
       "id": 38,
       "key": "Kassadin",
@@ -799,13 +792,6 @@
       "active": false
     },
     {
-      "title": "the Ice Witch",
-      "id": 127,
-      "key": "Lissandra",
-      "name": "Lissandra",
-      "active": false
-    },
-    {
       "title": "Scorn of the Moon",
       "id": 131,
       "key": "Diana",
@@ -936,14 +922,14 @@
       "id": 7,
       "key": "Leblanc",
       "name": "LeBlanc",
-      "active": false
+      "active": true
     },
     {
       "title": "the Prodigal Explorer",
       "id": 81,
       "key": "Ezreal",
       "name": "Ezreal",
-      "active": true
+      "active": false
     },
     {
       "name": "Tutu",
